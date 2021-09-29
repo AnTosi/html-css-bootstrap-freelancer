@@ -13,9 +13,9 @@ header i {
     border-radius: 2px;
 }
 
-/* .row {
+.min_height_400 {
     min-height: 400px;
-} */
+}
 
 .green_background {
     background-color: #1ABC9C;
@@ -50,7 +50,7 @@ header i {
 }
 
 .scheda {
-    min-height: 400px;
+    min-height: 300px;
     border-radius: 1rem;
 }
 
@@ -60,5 +60,21 @@ header i {
 }
 
 div.title.debug {
-    height: 300px;
+    height: 150px;
 }
+
+.row {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #3A546D;
+}
+
+footer div.firma {
+    background-color: #2C3E50;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: center;
+}
+
