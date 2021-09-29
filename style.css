@@ -51,4 +51,5 @@ header i {
 
 .scheda {
     min-height: 400px;
+    border-radius: 1rem;
 }
