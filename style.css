@@ -13,9 +13,9 @@ header i {
     border-radius: 2px;
 }
 
-.row {
+/* .row {
     min-height: 400px;
-}
+} */
 
 .green_background {
     background-color: #1ABC9C;
@@ -52,4 +52,13 @@ header i {
 .scheda {
     min-height: 400px;
     border-radius: 1rem;
+}
+
+.four.debug {
+    background-color: hotpink;
+    height: 500px;
+}
+
+div.title.debug {
+    height: 300px;
 }
