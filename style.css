@@ -1,0 +1,55 @@
+header {
+    height: 74px;
+    border-bottom: 3px solid #218D80;
+    color: white;
+    background-color: #2C3E50;
+    width: 100%;
+}
+
+header i {
+    color: gray;
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+}
+
+.row {
+    min-height: 400px;
+}
+
+.green_background {
+    background-color: #1ABC9C;
+}
+
+.title hr {
+    width: 50px;
+}
+
+.bg_fucsia {
+    background-color: #BA4B63;
+}
+
+.bg_lightblue {
+    background-color: #1EA4B6;
+}
+
+.bg_black {
+    background-color: #140F0F;
+}
+
+.bg_blue {
+    background-color: #1C83C1;
+}
+
+.bg_darkblue {
+    background-color: #0E38B5;
+}
+
+.bg_beige {
+    background-color: #CCB2A3;
+}
+
+.scheda {
+    min-height: 400px;
+    padding: 2rem;
+}
