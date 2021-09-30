@@ -1,5 +1,4 @@
 header {
-    height: 74px;
     border-bottom: 3px solid #218D80;
     color: white;
     background-color: #2C3E50;
@@ -13,10 +12,19 @@ header i {
     border-radius: 2px;
 }
 
+header h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
 .min_height_400 {
     min-height: 400px;
 }
 
+.fw_600 {
+    font-weight: 600;
+}
 .green_background {
     background-color: #1ABC9C;
 }
