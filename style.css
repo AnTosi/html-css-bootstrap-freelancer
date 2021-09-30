@@ -91,12 +91,18 @@ section.one img {
     height: 216px;
     width:195px;
 }
-
+section.one i::before {
+    content: "";
+    width: 50%;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+}
 @media screen and (min-width: 768px) {
     section.one img {
         height: 264px;
         width: 234px;
     }
+
     header h5 {
         font-size: 1.25rem;
         line-height: 1.5rem;
