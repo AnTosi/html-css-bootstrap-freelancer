@@ -15,7 +15,8 @@ header i {
 header h5 {
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 1.5;
+    line-height: 1.25rem;
+    font-size: 0.8rem;
 }
 
 .min_height_400 {
@@ -96,5 +97,10 @@ section.one img {
         height: 264px;
         width: 234px;
     }
+    header h5 {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
     
 }
+
