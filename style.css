@@ -141,6 +141,10 @@ section.three .title div.star {
     width: 40%;
 }
 
+section.four div.star {
+    width: 90%;
+}
+
 @media screen and (min-width: 768px) {
     section.one img {
         height: 264px;
@@ -156,7 +160,7 @@ section.three .title div.star {
         font-size: 2.5rem;
     }
 
-    .title h3 {
+    .title h4 {
         font-size: 2rem;
     }
     .title hr {
@@ -164,3 +168,12 @@ section.three .title div.star {
     }
 }
 
+@media screen and (min-width:1200px) {
+    .title h4 {
+        font-size: 2.5rem
+    }
+    
+    .title h2 {
+        font-size: 3rem;
+    }
+}
