@@ -31,6 +31,10 @@ header h5 {
     background-color: #1ABC9C;
 }
 
+.text_green {
+    color: #1ABC9C;
+}
+
 .title hr {
     width: 100%;
     height: 3px;
@@ -181,6 +185,16 @@ textarea::placeholder {
     opacity: 1;
 }
 
+
+footer i.fab{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+}
+
 @media screen and (min-width: 768px) {
     section.one img {
         height: 264px;
@@ -203,8 +217,33 @@ textarea::placeholder {
         height: 4px;
     }
 
-    form input:last-child {
+    form textarea {
         height: 180px;
+    }
+
+    input {
+        font-size: 1.15rem;
+    }
+
+    input::placeholder {
+        font-size: 1.15rem;
+    }
+
+    textarea {
+        font-size: 1.15rem;
+    }
+
+    textarea::placeholder {
+        font-size: 1.15rem;
+    }
+
+    footer i.fab{
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        vertical-align: middle;
     }
 }
 
@@ -217,4 +256,34 @@ textarea::placeholder {
     .title h2 {
         font-size: 3rem;
     }
+
+    form {
+        font-size: 1.3rem;
+    }
+
+    input {
+        font-size: 1.3rem;
+    }
+
+    input::placeholder {
+        font-size: 1.3rem;
+    }
+
+    textarea {
+        font-size: 1.3rem;
+    }
+
+    textarea::placeholder {
+        font-size: 1.3rem;
+    }
+
+    footer i.fab{
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        vertical-align: middle;
+    }
+    
 }
