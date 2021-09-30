@@ -245,6 +245,14 @@ footer i.fab{
         line-height: 50px;
         vertical-align: middle;
     }
+
+    .btn {
+        transform: scale(1.1);
+    }
+
+    .par {
+        font-size: 1.1rem;
+    }
 }
 
 
@@ -284,6 +292,14 @@ footer i.fab{
         height: 55px;
         line-height: 55px;
         vertical-align: middle;
+    }
+
+    .btn {
+        transform: scale(1.2);
+    }
+
+    .par {
+        font-size: 1.2rem;
     }
     
 }
