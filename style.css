@@ -147,8 +147,40 @@ section.four div.star {
 
 input {
     border-style: none;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.281);   
 }
+
+textarea {
+    border-style: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+form textarea {
+    height: 160px;
+    overflow: wrap;
+    width: 100%;
+}
+
+input:focus {
+    border: 1px solid #2C3E50;
+    outline-style: none;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    opacity: 1;
+}
+
+textarea:focus {
+    border: 1px solid #2C3E50;
+    outline-style: none;
+    border-radius: 5px;
+}
+
+textarea::placeholder {
+    opacity: 1;
+}
+
 @media screen and (min-width: 768px) {
     section.one img {
         height: 264px;
@@ -169,6 +201,10 @@ input {
     }
     .title hr {
         height: 4px;
+    }
+
+    form input:last-child {
+        height: 180px;
     }
 }
 
