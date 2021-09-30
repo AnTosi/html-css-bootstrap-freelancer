@@ -86,3 +86,15 @@ footer div.firma {
     vertical-align: center;
 }
 
+section.one img {
+    height: 216px;
+    width:195px;
+}
+
+@media screen and (min-width: 768px) {
+    section.one img {
+        height: 264px;
+        width: 234px;
+    }
+    
+}
