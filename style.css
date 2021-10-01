@@ -151,7 +151,8 @@ section.four div.star {
 
 input {
     border-style: none;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.281);   
+    border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+    padding-left: 0.5rem;
 }
 
 form textarea {
