@@ -15,10 +15,13 @@ header i {
 header h5 {
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 1.25rem;
-    font-size: 0.8rem;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
 }
 
+header ul {
+    margin-bottom: 0;
+}
 .min_height_400 {
     min-height: 400px;
 }
@@ -226,8 +229,8 @@ footer i.fab{
     }
 
     header h5 {
-        font-size: 1.25rem;
-        line-height: 1.5rem;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
     }
     
     .title h2 {
