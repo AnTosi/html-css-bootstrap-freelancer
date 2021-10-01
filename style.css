@@ -154,16 +154,19 @@ input {
     border-bottom: 1px solid rgba(128, 128, 128, 0.281);   
 }
 
-textarea {
+form textarea {
+    height: 160px;
+    width: 100%;
+    padding: 0.5rem;
     border-style: none;
     border-bottom: 1px solid rgba(128, 128, 128, 0.281);
 }
 
-form textarea {
-    height: 160px;
-    overflow: wrap;
-    width: 100%;
+form div.btn {
+    margin-left: 0.3rem;
 }
+
+
 
 input:focus {
     border: 1px solid #2C3E50;
@@ -222,6 +225,9 @@ footer i.fab{
     display: inline-block;
 }
 
+.scheda:hover {
+    cursor: pointer;
+}
 @media screen and (min-width: 768px) {
     section.one img {
         height: 264px;
